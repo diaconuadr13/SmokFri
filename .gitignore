@@ -1,0 +1,72 @@
+# Django
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+.Python
+*.db
+*.sqlite3
+/media
+/static
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django migrations (optional - uncomment if you want to ignore migrations)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# React/Node.js (from frontend)
+smokfri_frontend/node_modules/
+smokfri_frontend/.pnp
+smokfri_frontend/.pnp.js
+smokfri_frontend/coverage/
+smokfri_frontend/build/
+smokfri_frontend/.env.local
+smokfri_frontend/.env.development.local
+smokfri_frontend/.env.test.local
+smokfri_frontend/.env.production.local
+smokfri_frontend/npm-debug.log*
+smokfri_frontend/yarn-debug.log*
+smokfri_frontend/yarn-error.log*
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
